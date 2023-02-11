@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Datapoint - Website Design and Development.</title>
+	<link rel="Shortcut icon" href="img/favicon.ico" />  
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/tooltips.css">
+    
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="js/easyTooltip.js"></script>
+    <script type="text/javascript" src="js/jquery.preloader.js"></script>
+    
+	<script type="text/javascript" src="js/tooltips.js"></script>
+    <script type="text/javascript">
+	$(function(){
+		$('.features img:gt(0)').hide();
+		setInterval(function(){$('.features :first-child').fadeOut().next('img').fadeIn().end().appendTo('.features');}, 3000);
+		
+		$(function() {
+			$("#footer-links a[title]").tooltips();
+		});
+	});
+	</script>
+</head>
+<body>
+
+            <div id="header">
+    	<div class="main">
+            <div class="menu">
+                <a href="index.html" style="float:left;"><img src="img/menu.png" alt="" /></a>
+            <ul>     
+            <li><a href="web_development.html">WEB DEVELOPMENT </a></li>
+            <li>|</li> 
+            <li> <a href="software.html">SOFTWARE</a></li>
+            <li>|</li> 
+            <li><a href="underconstruction.html">OUTSOURCING</a></li>
+            <li>|</li> 
+            <li><a href="portfolio.html">PORTFOLIO</a></li> 
+            <li>|</li> 
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li>|</li> 
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li>|</li> 
+            <li><a href="quote.html" style="color:#FF0!important;">GET A QUOTE</a></li>                 
+            </ul>
+                                                               
+            </div><!-- menu -->
+       	</div><!-- main -->
+    </div><!-- header -->
+         
+              <div id="content">
+    	
+        	<div id="banner">
+            	<div class="main">
+                    <ul class="follow">
+                        <li><a href="#"><img src="img/banner-fb.png" alt="" /></a></li>
+                        <li><a href="#"><img src="img/banner-tw.png" alt="" /></a></li>
+                    </ul>
+                </div><!-- main -->
+            </div><!-- banner -->
+            
+            <div id="highlights">
+            	<div class="main">
+                	<ul>
+                    	<li id="webdev">
+                            <div class="highlights">
+                                <a href="web_development.html">
+                                    <h3>Start Now..</h3>
+                                    <h1>Website</h1>
+                                    <h2>Development</h2>
+                                    <p>Taking advantage of the latest web
+                            design technology is what we do best
+                            that is why we make stunning websites..<i> >> Start Now..</i>
+                            		</p>
+                                </a>
+                            </div><!-- highlights -->
+                        </li>
+                        
+                        <li id="software">
+                            <div class="highlights">
+                                <a href="software.html">
+                                    <h3>Start Now..</h3>
+                                    <h1>Software</h1>
+                                    <h2>Development</h2>
+                                    <p>We develop innovative software 
+                            that can help your company grow and 
+                            have a stress free work environment.. <i>>> Start Now..</i>
+                            		</p>
+                                </a>
+                            </div><!-- highlights -->
+
+                        </li>
+                        
+                        <li id="outsource">
+                            <div class="highlights">
+                                <a href="#">
+                                    <h3>Start Now..</h3>
+                                    <h1>Business</h1>
+                                    <h2>Outsourcing</h2>
+                                    <p>Become our partner in IT business! We
+                            deliver perfect service on Tech support,
+                            Internet Trafficking and Call Center Biz..<i>>> Start Now..</i>
+                            		</p>
+                                </a>
+                            </div><!-- highlights -->
+                        </li>
+                    </ul>
+                </div><!-- main -->
+            </div>
+            
+            <br /><br />
+            
+            <div id="featured">
+            	<div class="main">
+                	<div class="content">
+                    	<h1>Look at our Works</h1>
+                        <h2>that were proud of</h2>
+                        <p>We are group of developers and professionals that teamed-up to deliver the most advance solutions for your company.</p>
+                        <a href="#"><img src="img/featured-porfolio.png" alt="" /></a>
+                    </div><!-- content -->
+                	<div class="featured">
+                        <div class="features">
+                            <img src="img/feature1.jpg" alt="" />
+                            <img src="img/feature2.jpg" alt="" />
+                            <img src="img/feature3.jpg" alt="" />
+                            <img src="img/feature4.jpg" alt="" />
+                            <img src="img/feature5.jpg" alt="" />
+                            <img src="img/feature6.jpg" alt="" />
+                        </div><!-- features -->
+                    </div><!-- featured -->
+                </div><!-- main -->
+            </div>
+        
+        	<div id="clients">
+            	<div class="main">
+                	<div class="content">
+                    	<h1>Our dear Clients</h1>
+                        <h2>And their testimonials</h2>
+                        <p>We are dedicated to give satisfaction to our clients, for they are our inspiration to make our projects better and better for us to become the best.</p>
+                        <a href="#"><img src="img/clients-quote.png"  alt="" /></a>
+                    </div><!-- content -->
+                    <div class="clients">
+                        <ul class="clientlist">
+                            <li><p><a href="#" id="client1"><img src="img/client1.jpg" alt="" /></a></p></li>
+                            <li><p><a href="#" id="client2"><img src="img/client2.jpg" alt="" /></a></p></li>
+                            <li><p><a href="#" id="client3"><img src="img/client3.jpg" alt="" /></a></p></li>
+                            <li><p><a href="#" id="client4"><img src="img/client4.jpg" alt="" /></a></p></li>
+                            <li><p><a href="#" id="client5"><img src="img/client5.jpg" alt="" /></a></p></li>
+                            <li><p><a href="#" id="client6"><img src="img/client6.jpg" alt="" /></a></p></li>
+                        </ul>
+                        <ul class="clientrepage">
+                            <li class="active"><a href="#"><img src="img/pagination.png" alt="" /></a></li>
+                            <li><a href="#"><img src="img/pagination.png" alt="" /></a></li>
+                            <li><a href="#"><img src="img/pagination.png" alt="" /></a></li>
+                            <li><a href="#"><img src="img/pagination.png" alt="" /></a></li>
+                        </ul>
+                    </div><!-- clients -->
+                </div><!-- main -->
+            </div>
+    </div><!-- content -->             <div id="footer">
+    	<div class="main">
+        	<div class="footer">
+            	<img src="img/footer-menu.png" /> 
+                <ul id="footer-links">
+                    <li><a href="index.html" title="HOME PAGE" id="footer-home"></a></li>
+                    <li><a href="web_development.html" title="WEB DEVELOPMENT" id="footer-webdev"></a></li>
+                    <li><a href="software.html" title="SOFTWARE DEVELOPMENT" id="footer-software"></a></li>
+                    <li><a href="underconstruction.html" title="OUTSOURCING PAGE" id="footer-outsource"></a></li>
+                    <li><a href="portfolio.html" title="OUR PORTFOLIO" id="footer-portfolio"></a></li>
+                    <li><a href="aboutus.html" title="ABOUT US" id="footer-about"></a></li>
+                    <li><a href="contactus.html" title="CONTACT US" id="footer-contact"></a></li>
+                    <li><a href="quote.html" title="GET A QUOTE" id="footer-quote"></a></li>
+                    <li><a href="http://forum.datapoint.us/" title="FORUM PAGE" id="footer-forum"></a></li>
+                </ul><!-- footer-links -->
+            </div><!-- footer -->
+        </div><!-- main -->
+    </div><!-- footer --></body>
+
+</html> 

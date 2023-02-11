@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Datapoint - Website Design and Development.</title>
+	<link rel="Shortcut icon" href="img/favicon.ico" />  
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="css/tooltips.css">
+    
+    <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="js/easyTooltip.js"></script>
+    <script type="text/javascript" src="js/jquery.preloader.js"></script>
+    
+	<script type="text/javascript" src="js/tooltips.js"></script>
+    <script type="text/javascript">
+	$(function(){
+		$('.features img:gt(0)').hide();
+		setInterval(function(){$('.features :first-child').fadeOut().next('img').fadeIn().end().appendTo('.features');}, 3000);
+		
+		$(function() {
+			$("#footer-links a[title]").tooltips();
+		});
+	});
+	</script>
+</head>
+<body>
+
+            <div id="header">
+    	<div class="main">
+            <div class="menu">
+                <a href="index.html" style="float:left;"><img src="img/menu.png" alt="" /></a>
+            <ul>     
+            <li><a href="web_development.html">WEB DEVELOPMENT </a></li>
+            <li>|</li> 
+            <li> <a href="software.html">SOFTWARE</a></li>
+            <li>|</li> 
+            <li><a href="underconstruction.html">OUTSOURCING</a></li>
+            <li>|</li> 
+            <li><a href="portfolio.html">PORTFOLIO</a></li> 
+            <li>|</li> 
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li>|</li> 
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <li>|</li> 
+            <li><a href="quote.html" style="color:#FF0!important;">GET A QUOTE</a></li>                 
+            </ul>
+                                                               
+            </div><!-- menu -->
+       	</div><!-- main -->
+    </div><!-- header -->
+         
+            
+<div id="content">
+    	
+        	<div id="banner">
+            	<div class="main">
+                    <ul class="follow">
+                        <li><a href="#"><img src="img/banner-fb.png" /></a></li>
+                        <li><a href="#"><img src="img/banner-tw.png" /></a></li>
+                    </ul>
+                </div><!-- main -->
+            </div><!-- banner -->
+            
+            <div class="main">
+            	<div id="quote" class="contents">
+                <h1></h1>
+                	<form  method="post" action="#">
+                    <ul>
+                        <li>
+<p style="color:#F00;">
+</p>
+                            <h2>Project Information</h2>
+                            <div class="leftlabel"><label>Select Service: *</label></div>
+                                <div class="rightform">
+                                	<select name="service"  >
+                                    <option value=""></option>
+                                    <option value="1">Web Development</option>
+                                    <option value="2">Software Development</option>
+                                    <option value="3">Business Outsourcing</option>
+                                    </select>
+                                </div>
+                            <div class="leftlabel"><label>Select Project: *</label></div>
+                            	<div class="rightform">
+                                	<select name="web_development"   >
+                                    <option value=""></option>
+                                    <option value="1">Web FREE</option>
+                                    <option value="2">Web Pro</option>
+                                    <option value="3">Web Premium</option>
+                                    <option value="4">PSD to XHTML</option>
+                                    <option value="5">Web Design</option>
+                                    <option value="6">Web re-Design</option>
+                                    </select>
+                                </div>
+                            <div class="leftlabel"><label>Project Description: *</label></div>
+                            	<div class="rightform">
+                                	<textarea name="projectdescrp" rows="4"    required placeholder="Description"></textarea>
+                                </div>        
+                        </li>
+                        <div class="clear"></div>
+                        <li>
+                        	<h2>Customer Information</h2>
+                            <div class="leftlabel"><label>Your Name: *</label></div>
+                            	<div class="rightform"><input name="name" type="text" value=""   required placeholder="Your Name" ></div>
+                            <div class="leftlabel"><label>Contact Number: *</label></div>
+                            	<div class="rightform"><input name="contact" type="text" value=""   required placeholder="Contact Number" ></div>
+                            <div class="leftlabel"><label>E-mail Address: *</label></div>
+                            	<div class="rightform"><input name="email" type="email" value=""   required placeholder="E-mail Address" ></div>
+                            <div class="leftlabel"><label>Company Name: *</label></div>
+                            	<div class="rightform"><input name="company" type="text" value=""   required placeholder="Company Name" ></div>
+                        </li>
+                        <li>
+                        	<div class="rightform"><input type="submit" class="btnsubmit"></div>
+                        </li>
+                    </ul>
+
+                    </form>
+                    
+                    <div id="reference">
+                    	<h2>Reference</h2>
+                        <label>Web Development</label>
+                        <ul>
+                        	<li>Web FREE</li>
+                            <li>Web Pro</li>
+                            <li>Web Premium</li>
+                            <li>PSD to XHTML</li>
+                            <li>Web Design</li>
+                            <li>Web re-Design</li>
+                            <li>add-on SEO</li>
+                            <li>add-on SMS</li>
+                            <li>add-on Flash</li>
+                        </ul>
+                        
+                        <label>Software Development</label>
+                        <ul>
+                        	<li>Biometric DTR</li>
+                            <li>Inventory System</li>
+                            <li>SMS Blast</li>
+                            <li>Add a software</li>
+                        </ul>
+                        
+                        <label>Business Outsourcing</label>
+                        <ul>
+                        	<li>IT</li>
+                            <li>Call Center</li>
+                            <li>Internet Trafficing</li>
+                            <li>Add a software</li>
+                        </ul>
+                    </div>
+                    <div class="clear"></div>
+                </div><!-- contents -->
+            </div><!-- main -->
+    
+    </div><!-- content -->             <div id="footer">
+    	<div class="main">
+        	<div class="footer">
+            	<img src="img/footer-menu.png" /> 
+                <ul id="footer-links">
+                    <li><a href="index.html" title="HOME PAGE" id="footer-home"></a></li>
+                    <li><a href="web_development.html" title="WEB DEVELOPMENT" id="footer-webdev"></a></li>
+                    <li><a href="software.html" title="SOFTWARE DEVELOPMENT" id="footer-software"></a></li>
+                    <li><a href="underconstruction.html" title="OUTSOURCING PAGE" id="footer-outsource"></a></li>
+                    <li><a href="portfolio.html" title="OUR PORTFOLIO" id="footer-portfolio"></a></li>
+                    <li><a href="aboutus.html" title="ABOUT US" id="footer-about"></a></li>
+                    <li><a href="contactus.html" title="CONTACT US" id="footer-contact"></a></li>
+                    <li><a href="quote.html" title="GET A QUOTE" id="footer-quote"></a></li>
+                    <li><a href="http://forum.datapoint.us/" title="FORUM PAGE" id="footer-forum"></a></li>
+                </ul><!-- footer-links -->
+            </div><!-- footer -->
+        </div><!-- main -->
+    </div><!-- footer --></body>
+
+</html> 

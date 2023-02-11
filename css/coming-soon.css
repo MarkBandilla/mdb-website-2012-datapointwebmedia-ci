@@ -39,7 +39,7 @@ body{
 
 #page h2{
 	height:76px;
-	background:url('../img/get_notified.png') no-repeat;
+	background:url('../img/get_notified.html') no-repeat;
 	margin-bottom:20px;
 }
 
@@ -58,7 +58,7 @@ body{
 }
 
 #email{
-	background:url('../img/submit_form.png') no-repeat;
+	background:url('../img/submit_form.html') no-repeat;
 	border:none;
 	color:#888888;
 	height:31px;
@@ -73,7 +73,7 @@ body{
 }
 
 #submitButton{
-	background:url('../img/submit_form.png') no-repeat right top;
+	background:url('../img/submit_form.html') no-repeat right top;
 	border:none;
 	cursor:pointer;
 	height:31px;
@@ -102,7 +102,7 @@ body{
 }
 
 a.tzine,a.tzine:visited{
-	background:url("../img/tzine.png") no-repeat right top;
+	background:url("../img/tzine.html") no-repeat right top;
 	border:none;
 	color:#FCFCFC;
 	font-size:12px;
