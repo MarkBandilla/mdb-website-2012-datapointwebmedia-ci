@@ -1,0 +1,688 @@
+@charset "utf-8";
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	display: block;
+}
+
+/* GLOBAL CSS */
+.main {
+	width: 960px;
+	margin: auto;
+}
+
+/* HEADER CSS */
+#header {
+	background: url(../img/menu-bg.png);
+	height: 40px;
+	border-bottom: 5px solid black;
+}
+.menu {
+	padding-top: 5px;
+}
+.menu ul {
+	width: 80%;
+	float: right;
+	margin-top: 5px;
+}
+.menu ul li {
+	float: left;
+	margin-left: 5px;
+	font-family: 'MyriadPro-BoldCond',Sans-Serif;
+	font-size: 20px;
+	color: white;
+}
+
+.menu ul li a {
+	color: white;
+	text-decoration: none;
+}
+.menu ul li a:hover {
+	color: white;
+	text-decoration: underline;
+}
+/* BANNER CSS */
+
+#banner {
+	height: 400px;
+	background: url(../img/banner-bg.jpg) center;
+	background-size: cover;
+}
+
+.follow {
+	float: right;
+	padding: 33px 55px 0px 0px;
+}
+
+.follow li {
+	float: left;
+	margin: 3px;
+}
+
+/* HIGHLIGHTS CSS */
+
+#highlights {
+	margin-top: -90px;
+}
+
+#highlights li {
+	float: left;
+	margin: 0px 5px 0px 5px;
+}
+
+#webdev .highlights{
+	background: #efefef url(../img/highlights-webdev.jpg);
+}
+#webdev .highlights p {
+	background: #587c26;
+}
+#webdev .highlights h3 {
+	color: #587c26;
+}
+
+#software .highlights{
+	background: #efefef url(../img/highlights-software.jpg);
+}
+#software .highlights p {
+	background: #001e45;
+}
+#software .highlights h3 {
+	color: #001e45;
+}
+
+#outsource .highlights{
+	background: #efefef url(../img/highlights-outsource.jpg);
+}
+#outsource .highlights p {
+	background: #b03d19;
+}
+#outsource .highlights h3 {
+	color: #b03d19;
+}
+
+.highlights {
+	margin: auto;
+	width: 298px;
+	height: 200px;
+	border: 5px solid white;
+	overflow: hidden;
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+	-webkit-box-shadow: inset 0px 0px 7px 1px rgba(00, 00, 00, .5);
+	-moz-box-shadow: inset 0px 0px 7px 1px rgba(00, 00, 00, .5);
+	box-shadow: inset 0px 0px 7px 1px rgba(00, 00, 00, .5);
+	
+	font-family: "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+}
+
+.highlights h1 {
+	color: white;
+	font: bold 60px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	text-decoration: none;
+	margin: 0px 0px 0px 5px;
+	
+	text-shadow: 1px 1px 5px #000000;
+	filter: dropshadow(color=#000000, offx=1, offy=1)
+}
+
+.highlights h2 {
+	color: white;
+	font: bold 30px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	margin: -10px 0px 10px 10px;
+	
+	text-shadow: 1px 1px 5px #000000;
+	filter: dropshadow(color=#000000, offx=1, offy=1)
+}
+
+.highlights h3 {
+	font: bold 30px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	padding: 10px;
+	margin: -5px 0px 65px 0px;
+	
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.highlights p {
+	color: white;
+	font: normal 14px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	padding: 10px;
+	height: 90px;
+	
+	line-height: 17px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.highlights p i {
+	float: right;
+	padding-top: 20px;
+	text-decoration: underline;
+	font: normal 14px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+}
+
+.highlights a {
+	margin-top: -115px;
+	text-decoration: none;
+	
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+
+.highlights a:hover {
+	margin-top: 0px;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+}
+
+/* FEATURES */
+
+#featured, #addon {
+	background: #253554;
+	height: 260px;
+	margin-top: 230px;
+	padding-top: 10px;
+	border-bottom: 5px solid white;
+}
+
+#addsoftware {
+	background: #253554;
+	height: 295px;
+	margin-top: 230px;
+	padding-top: 10px;
+	border-bottom: 5px solid white;
+}
+
+#featured .content {
+	width: 520px;
+	float: left;
+}
+
+#featured .content h1, #addon .content h1, #addsoftware .content h1 {
+	color: #e1ee0a;
+	font: bold 60px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	text-decoration: none;
+	margin: 0px 0px 0px 5px;
+}
+
+#featured .content h2, #addon .content h2, #addsoftware .content h2 {
+	color: white;
+	font: bold 30px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	margin: -10px 0px 10px 10px;
+}
+
+#featured .content p, #addon .content p, #addsoftware .content p {
+	color: white;
+	font: normal 14px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	margin-left: 10px;
+	line-height: 17px;
+}
+#featured .content img {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.featured {
+	width: 390px;
+	height: 245px;
+	background: url(../img/featured-bg.png);
+	float: right;
+}
+
+.features {
+	position:relative;
+	width: 370px;
+	height: 203px;
+	margin:auto;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.features img {
+	position:absolute;
+	left:0;
+	top:10;
+}
+
+#featured .main .content ul li {
+	float: left;
+}
+#addon .content {
+	width: 960px;
+}
+#addon .content ul li {
+	float: left;
+	margin: 0px 35px 0px 35px;
+}
+
+#addsoftware .content {
+	width: 640px;
+	float: left;
+}
+
+#addsoftware .content img {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.addsoftware {
+	float: right;
+}
+/* CLIENTS CSS */
+#clients {
+	background: url(../img/clients-bg.png);
+	height: 300px;
+	padding: 30px;
+}
+
+#clients .content {
+	width: 520px;
+	float: left;
+}
+
+#clients .content h1 {
+	color: #702620;
+	font: bold 60px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	text-decoration: none;
+	margin: 0px 0px 0px 5px;
+}
+
+#clients .content h2 {
+	color: #963934;
+	font: bold 30px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	margin: -10px 0px 10px 10px;
+}
+
+#clients .content p {
+	color: black;
+	font: normal 14px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	margin-left: 10px;
+	line-height: 17px;
+}
+#clients .content img {
+	margin-left: 10px;
+	margin-top: 30px;
+}
+
+.clients {
+	width: 400px;
+	float: right;
+	margin-right: -8px;
+}
+.clientlist li{
+	background:#fff;  
+	float:left;  
+	display:block;  
+	border: 1px solid #e3e3e3;
+	-webkit-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+-moz-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+	margin:5px;  
+	padding:0;  
+	
+}
+
+.clientlist li p{
+	border:1px solid #fff;  
+
+	margin:0;  
+	padding:5px;
+}
+
+.clientlist li a{
+	display:block;  
+	color:#fff;  
+	text-decoration:none;  
+	padding:0;
+}
+
+.clientlist img{
+	width:107px;  
+	height:107px;  
+	margin:0;  
+	padding:0;
+}
+
+.clientrepage {
+	width: 70px;
+	margin: auto;
+}
+
+.clientrepage li{
+	width: 12px;
+	height: 12px;
+	float:left;  
+	display:block; 
+	overflow: hidden;
+	margin: 10px 2px;
+}
+
+.clientrepage .active img{ 
+	margin-top: -12px;
+}
+
+/* CONTENTS */
+.contents {
+	margin-top: -65px;
+	border-radius:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	border: 5px solid white;
+	margin-bottom: 55px;
+	position: relative;
+}
+
+.contents h1 {
+	font: bold 40px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	padding: 10px 0px 50px 30px;
+}
+
+.contents form {
+	width: 550px;
+	float: left;
+	padding: 0px 55px 30px 0px;
+}
+
+.contents #reference {
+	width: 310px;
+	float: right;
+	border-left: 1px solid #e6ebee;
+	margin-right: 30px;
+}
+
+.contents form ul li {
+	margin-bottom: 50px;
+	width: 550px;
+}
+
+.contents form ul li h2, .contents #reference h2 {
+	clear: both;
+	font: 30px/1.3 'Segoe UI',Arial, sans-serif;
+	margin: 10px 0px 10px 30px;
+}
+
+.contents form ul li label {
+	font: 20px/1.3 'Segoe UI',Arial, sans-serif;
+	margin: 10px 10px 10px 30px;
+	color: #70777A;
+}
+
+.contents form ul li .leftlabel {
+	clear:both;
+	width: 250px;
+	text-align: right;
+	float: left;
+}
+
+.contents form ul li .rightform {
+	float:right;
+	width: 300px;
+}
+
+/* FOR HTML5 */
+.contents form ul li .rightform select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	
+	font: 16px/1.3 'Segoe UI',Arial, sans-serif;
+	width:300px;
+	
+	border: 1px solid #8A9BA0;
+	background: url('../img/form-ok.jpg') white no-repeat;
+}
+.contents form ul li .rightform textarea, .contents form ul li .rightform input {
+	font: 16px/1.3 'Segoe UI',Arial, sans-serif;
+	width:300px;
+	
+	border: 1px solid #8A9BA0;
+	background: url('../img/form-required.jpg') white no-repeat;
+}
+.contents form ul li .rightform textarea:valid, .contents form ul li .rightform input:valid {
+	background: url('../img/form-ok.jpg') white no-repeat;
+}
+.contents form ul li .rightform textarea:focus:invalid, .contents form ul li .rightform input:focus:invalid {
+	background: url('../img/form-error.jpg') white no-repeat;
+}
+
+/* END HTML5 */
+
+.contents #reference label {
+	font: 20px/1.3 'Segoe UI',Arial, sans-serif;
+	margin: 10px 0px 10px 30px;
+}
+
+.contents p {
+	font: 15px/150% 'Segoe UI',Arial, sans-serif;
+	margin: 10px 0px 20px 33px;
+	color: #70777A;
+	text-align: justify;
+	letter-spacing:1px;
+}
+
+.contents form ul li .btnsubmit {
+	margin: 20px 0px 20px 0px;
+	float: right;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 5px 3px #ffffff;
+	-moz-box-shadow: 0px 0px 5px 3px #ffffff;
+	box-shadow: 0px 0px 5px 3px #ffffff;
+	font: 20px/100% "Century Gothic", Myriad Pro, Verdana, Tahoma, sans-serif;
+	color: white;
+	
+}
+.contents #reference ul li{
+	font: 14px/1.3 'Segoe UI',Arial, sans-serif;
+	margin: 0px 5px 0px 50px;
+	color: #70777A;
+	list-style:circle;
+}
+
+.contents #reference .clientlist {
+	margin-left: 30px;
+}
+
+.contents #reference .clientlist li {
+	margin: 5px;
+}
+
+#quote {
+	background: url('../img/section_bg2.jpg') repeat-x #f7f7f7;
+}
+#quote form ul li .btnsubmit {
+	background: #7e091d;
+	width: 150px;
+	height: 50px;
+}
+
+#contact {
+	background: url('../img/section_bg3.jpg') repeat-x #f7f7f7;
+
+}
+#contact form ul li .btnsubmit {
+	background: #1174a3;
+	width: 150px;
+	height: 50px;
+}
+#about {
+	background: url('../img/section_bg4.jpg') repeat-x #f7f7f7;
+
+}
+
+#portfolio {
+	background: url('../img/section_bg5.jpg') repeat-x #f7f7f7;
+
+}
+
+.gallery {
+	width: 550px;
+	height: auto;
+	display: block;
+	margin-left: 25px;
+}
+
+.gallery .thumb {
+	width: 255px;
+	height: 170px;
+	
+	background: white;
+	float: left;
+	margin: 5px;
+	border: 1px solid #e3e3e3;
+	-webkit-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+-moz-box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, .1);
+}
+
+.gallery .thumb img{
+	padding: 5px;
+}
+
+.clear {
+	clear:both;
+}
+
+/* FOOTER */
+#footer {
+	background: url(../img/footer-bg.png);
+	height: 200px;
+	padding: 10px;
+	border-top: 5px solid #dfdcdf;
+}
+
+#footer-links {
+	background: #dfdcdf;
+	float: right;
+	padding: 5px 5px 0px 5px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#footer-links li{
+	float: left;
+	padding: 2px;
+}
+
+#footer-links li a {
+	width:38px; 
+	height:38px;
+}
+
+#footer-links li #footer-home{
+	background:url(../img/footer-sprite.jpg) 0px 0px;
+}
+#footer-links li #footer-home:hover{
+	background:url(../img/footer-sprite.jpg) 0px 35px;
+}
+#footer-links li #footer-webdev{
+	background:url(../img/footer-sprite.jpg) -36px 0px;
+}
+#footer-links li #footer-webdev:hover{
+	background:url(../img/footer-sprite.jpg) -36px 35px;
+}
+#footer-links li #footer-software{
+	background:url(../img/footer-sprite.jpg) -71px 0px;
+}
+#footer-links li #footer-software:hover{
+	background:url(../img/footer-sprite.jpg) -71px 35px;
+}
+#footer-links li #footer-outsource{
+	background:url(../img/footer-sprite.jpg) -108px 0px;
+}
+#footer-links li #footer-outsource:hover{
+	background:url(../img/footer-sprite.jpg) -108px 35px;
+}
+#footer-links li #footer-portfolio{
+	background:url(../img/footer-sprite.jpg) -144px 0px;
+}
+#footer-links li #footer-portfolio:hover{
+	background:url(../img/footer-sprite.jpg) -144px 35px;
+}
+#footer-links li #footer-about{
+	background:url(../img/footer-sprite.jpg) -180px 0px;
+}
+#footer-links li #footer-about:hover{
+	background:url(../img/footer-sprite.jpg) -180px 35px;
+}
+#footer-links li #footer-contact{
+	background:url(../img/footer-sprite.jpg) -216px 0px;
+}
+#footer-links li #footer-contact:hover{
+	background:url(../img/footer-sprite.jpg) -216px 35px;
+}
+#footer-links li #footer-quote{
+	background:url(../img/footer-sprite.jpg) -251px 0px;
+}
+#footer-links li #footer-quote:hover{
+	background:url(../img/footer-sprite.jpg) -251px 35px;
+}
+#footer-links li #footer-forum{
+	background:url(../img/footer-sprite.jpg) -287px 0px;
+}
+#footer-links li #footer-forum:hover{
+	background:url(../img/footer-sprite.jpg) -287px 35px;
+}

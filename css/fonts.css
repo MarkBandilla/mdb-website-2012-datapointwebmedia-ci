@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyriadPro-BoldCond';
+    src: url('fonts/MyriadPro-BoldCond.eot');
+    src: url('fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MyriadPro-BoldCond.ttf') format('truetype'),
+         url('fonts/MyriadPro-BoldCond.svg#CupiddeLockeRegular') format('svg');
+	/*advancedAntiAliasing: true;*/
+    font-weight: normal;
+    font-style: normal;
+}

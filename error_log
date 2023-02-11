@@ -1,0 +1,20 @@
+[16-Nov-2011 23:41:51] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:51] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:51] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:51] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:52] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:52] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:52] PHP Warning:  include(application/errors/error_php.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[16-Nov-2011 23:41:52] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'application/errors/error_php.php' for inclusion (include_path='.:/usr/lib64/php:/usr/lib/php:/usr/share/pear') in /home7/toprankg/public_html/datapoint/system/core/Exceptions.php on line 167
+[27-Nov-2011 21:09:57] PHP Parse error:  syntax error, unexpected '}' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 38
+[27-Nov-2011 21:10:13] PHP Parse error:  syntax error, unexpected '}' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 38
+[27-Nov-2011 22:40:50] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[27-Nov-2011 22:40:56] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[27-Nov-2011 22:41:14] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[27-Nov-2011 22:41:35] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[27-Nov-2011 22:41:59] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[27-Nov-2011 22:43:14] PHP Parse error:  syntax error, unexpected '.' in /home7/toprankg/public_html/datapoint/application/views/contact/index.php on line 11
+[28-Nov-2011 03:40:35] PHP Parse error:  syntax error, unexpected $end in /home7/toprankg/public_html/datapoint/application/views/quote/index.php on line 195
+[28-Nov-2011 03:43:04] PHP Parse error:  syntax error, unexpected $end in /home7/toprankg/public_html/datapoint/application/views/quote/index.php on line 195
+[28-Nov-2011 03:43:57] PHP Parse error:  syntax error, unexpected $end in /home7/toprankg/public_html/datapoint/application/views/quote/index.php on line 195
+[28-Nov-2011 03:44:01] PHP Parse error:  syntax error, unexpected $end in /home7/toprankg/public_html/datapoint/application/views/quote/index.php on line 195
